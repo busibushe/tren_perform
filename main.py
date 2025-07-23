@@ -8,7 +8,7 @@ import numpy as np
 import scipy.stats as stats
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
-from sklearn.cluster import KMeans
+# from sklearn.cluster import KMeans
 
 # ==============================================================================
 # KONFIGURASI APLIKASI
@@ -1093,7 +1093,7 @@ def main_app(user_name):
         # --- KONTEN TAB 3: ANALISIS STRATEGIS ---
         with strategic_tab:
             st.header("Sintesis dan Analisis Silang")
-            display_price_group_analysis(price_group_results)
+            # display_price_group_analysis(price_group_results)
             st.markdown("---")
             create_waiter_performance_analysis(df_filtered.copy())
             st.markdown("---")
